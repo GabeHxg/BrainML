@@ -1,7 +1,6 @@
 # Importing the required libraries
 import numpy as np
 import pandas as pd
-from g_drive_service import GoogleDriveService
 import streamlit as st
 
 def app():
