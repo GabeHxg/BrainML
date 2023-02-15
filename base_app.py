@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 from apps import data_present  # import your app modules here
 
-st.set_page_config(page_title="Streamlit Geospatial", layout="wide")
+st.set_page_config(page_title="Sistema Web de Jurimetria", layout="wide")
 
 apps = [
     {"func": data_present.app, "title": "Apresentação dos dados", "icon": "file-earmark-bar-graph"},
