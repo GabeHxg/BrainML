@@ -1,19 +1,14 @@
 # Importing the required libraries
 import numpy as np
 import pandas as pd
+from g_drive_service import GoogleDriveService
 import streamlit as st
 
 def app():
+
+    # Present
     st.title("Access Data")
-
-    st.markdown(
-        """
-    **Teste | Sistema Web Jurisprudência**
-    """
-    )
-
-    # Formatação para aparência da análise
-    # cores
+    st.markdown("""**Teste | Sistema Web Jurisprudência**""")
 
     # Reading the dataset
 
